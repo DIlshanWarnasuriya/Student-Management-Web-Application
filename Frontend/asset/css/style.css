@@ -1,0 +1,28 @@
+
+
+.icon img{
+    margin-bottom: 10px;
+}
+
+.link h5{
+    margin-bottom: 17px;
+}
+
+.link2 img{
+    margin-right: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.link2 img:hover{
+    scale: 1.5;
+    transition: 0.5s;
+}
+.icon{
+    margin-top: 10px;
+}
+.link{
+    margin-top: 10px;
+}
+.link2{
+    margin-top: 10px;
+}
