@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost/StudentDetails?createDatabaseIfNotExist=true
+    username: root
+    password: yash
+  jpa:
+    hibernate:
+      ddl-auto: update
