@@ -28,10 +28,18 @@ function registre() {
             }
         })
             .then(res => res.json())
-            .then(data => { });
-
-        notification("Registration Success", "The student Registration successfully", "success", "yes")
+            .then(data => {
+                if (data != null) {
+                    notification("Registration Success", "The student Registration successfully", "success", "yes")
+                    return;
+                }
+                else {
+                    notification("Registration Fail", "The student Registration fail", "error", "yes")
+                    return;
+                }
+            })
     }
+
 }
 
 //------------- Nitification functions -------------
