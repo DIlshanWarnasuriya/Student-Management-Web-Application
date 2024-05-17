@@ -26,3 +26,12 @@
 .link2{
     margin-top: 10px;
 }
+
+.profile img{
+    transition: 0.5s;
+}
+
+.profile img:hover{
+    scale: 1.2;
+    transition: 0.5s;
+}
